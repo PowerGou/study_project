@@ -24,6 +24,7 @@ int main()
 
     if (hModule != nullptr)
     {
+        //第一次测试修改
         // 初始化 MFC 并在失败时显示错误
         if (!AfxWinInit(hModule, nullptr, ::GetCommandLine(), 0))
         {
